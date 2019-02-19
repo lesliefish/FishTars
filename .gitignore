@@ -3,3 +3,9 @@
 ################################################################################
 
 /code/.vs/FishTars/v15/ipch/AutoPCH/5059987484dc8e20/MAIN.ipch
+/code/.vs/FishTars/v15/Browse.VC.db
+*.suo
+/code/.vs/FishTars/v15/Browse.VC.opendb
+/code/FishTars/obj/ARM/Debug/FishTars.tlog
+/code/FishTars/obj/x64/Debug
+/code/FishTars/FishTars.vcxproj.user

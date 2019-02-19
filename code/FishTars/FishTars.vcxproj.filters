@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tars\util\src\tc_ex.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tars">
+      <UniqueIdentifier>{0307b0c3-b40d-4447-b101-fb30eb19d485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tars\util">
+      <UniqueIdentifier>{12ab84fc-482c-465c-b26f-8966e1e4622d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tars\util\src">
+      <UniqueIdentifier>{9f746987-609d-4148-8719-0fe339d7d181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tars\util\include">
+      <UniqueIdentifier>{76f95888-b655-4cb8-bdd1-8a93defe012a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tars\util\include\util">
+      <UniqueIdentifier>{65476fc6-32fc-4a37-99de-0d17de732b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{9dc30a31-c3f3-4d3c-80ca-54b7f29c792d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\utiltest">
+      <UniqueIdentifier>{7055fbd9-20e5-4082-bd8c-5c8be9c4e55b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test\utiltest\test_exception.h">
+      <Filter>test\utiltest</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\util\tc_ex.h">
+      <Filter>tars\util\include\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

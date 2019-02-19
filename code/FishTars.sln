@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FishTars", "FishTars\FishTars.vcxproj", "{7EBC21F2-2A49-4012-A817-E79D445D5E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|ARM.Build.0 = Debug|ARM
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|ARM64.Build.0 = Debug|ARM64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|x64.ActiveCfg = Debug|x64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|x64.Build.0 = Debug|x64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|x86.ActiveCfg = Debug|x86
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Debug|x86.Build.0 = Debug|x86
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|ARM.ActiveCfg = Release|ARM
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|ARM.Build.0 = Release|ARM
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|ARM64.ActiveCfg = Release|ARM64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|ARM64.Build.0 = Release|ARM64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|x64.ActiveCfg = Release|x64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|x64.Build.0 = Release|x64
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|x86.ActiveCfg = Release|x86
+		{7EBC21F2-2A49-4012-A817-E79D445D5E97}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02E33BA5-9740-4338-9DD6-81E0BAF8E4F9}
+	EndGlobalSection
+EndGlobal
