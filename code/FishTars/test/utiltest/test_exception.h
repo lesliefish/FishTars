@@ -6,6 +6,7 @@ namespace lesliefishtest
     using namespace tars;
     class ExceptionTest
     {
+    public:
         explicit ExceptionTest() {};
 
     public:
