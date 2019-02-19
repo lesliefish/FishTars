@@ -14,8 +14,8 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "util/tc_thread_cond.h"
-#include "util/tc_timeprovider.h"
+#include "../include/util/tc_thread_cond.h"
+#include "../include/util/tc_timeprovider.h"
 #include <string.h>
 #include <cassert>
 #include <iostream>

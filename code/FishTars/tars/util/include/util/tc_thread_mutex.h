@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Tencent is pleased to support the open source community by making Tars available.
  *
  * Copyright (C) 2016THL A29 Limited, a Tencent company. All rights reserved.
@@ -17,7 +17,7 @@
 #ifndef __TC_THREAD_MUTEX_H
 #define __TC_THREAD_MUTEX_H
 
-#include "util/tc_lock.h"
+#include "tc_lock.h"
 
 namespace tars
 {

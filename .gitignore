@@ -10,3 +10,5 @@
 /code/FishTars/obj/x64/Debug
 /code/FishTars/FishTars.vcxproj.user
 *.ipch
+*.out
+/code/FishTars/bin/x64/Debug

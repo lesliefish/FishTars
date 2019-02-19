@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "util/tc_timeprovider.h"
+#include "../include/util/tc_timeprovider.h"
 
 namespace tars
 {

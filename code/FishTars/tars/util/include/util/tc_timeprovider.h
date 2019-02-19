@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Tencent is pleased to support the open source community by making Tars available.
  *
  * Copyright (C) 2016THL A29 Limited, a Tencent company. All rights reserved.
@@ -19,9 +19,9 @@
 
 #include <string>
 #include <string.h>
-#include "util/tc_monitor.h"
-#include "util/tc_thread.h"
-#include "util/tc_autoptr.h"
+#include "tc_monitor.h"
+#include "tc_thread.h"
+#include "tc_autoptr.h"
 
 #define rdtsc(low,high) \
      __asm__ __volatile__("rdtsc" : "=a" (low), "=d" (high))

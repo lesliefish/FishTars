@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "util/tc_ex.h"
+#include "../include/util/tc_ex.h"
 #include <execinfo.h>
 #include <string.h>
 #include <stdlib.h>

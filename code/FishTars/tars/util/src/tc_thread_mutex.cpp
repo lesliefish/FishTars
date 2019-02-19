@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Tencent is pleased to support the open source community by making Tars available.
  *
  * Copyright (C) 2016THL A29 Limited, a Tencent company. All rights reserved.
@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "util/tc_thread_mutex.h"
+#include "../include/util/tc_thread_mutex.h"
 #include <string.h>
 #include <iostream>
 #include <cassert>

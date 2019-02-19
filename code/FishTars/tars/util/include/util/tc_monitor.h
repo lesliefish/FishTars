@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Tencent is pleased to support the open source community by making Tars available.
  *
  * Copyright (C) 2016THL A29 Limited, a Tencent company. All rights reserved.
@@ -17,8 +17,8 @@
 #ifndef _TC_MONITOR_H
 #define _TC_MONITOR_H
 
-#include "util/tc_thread_mutex.h"
-#include "util/tc_thread_cond.h"
+#include "tc_thread_mutex.h"
+#include "tc_thread_cond.h"
 
 namespace tars
 {
