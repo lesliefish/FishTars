@@ -1,11 +1,11 @@
-﻿/** @file    test_thread.h 
+﻿/** @file    test_thread.h
  *  @date    2019/02/19 21:41
  *
  *  @brief   tars线程测试
- *  		 
+ *
  *  @author  yu
- *  @contact ylesliefish@gmail.com 
- */ 
+ *  @contact ylesliefish@gmail.com
+ */
 
 #pragma once
 #include "../../tars/util/include/util/tc_thread.h"
@@ -37,7 +37,7 @@ namespace lesliefishtest
          ************************************/
         void runTask()
         {
-			std::cout << "run the task" << endl;
+            std::cout << "run the task" << endl;
         }
 
     protected:
@@ -63,27 +63,27 @@ namespace lesliefishtest
 
 
 
-	public:
-		/************************************!
-		 * @brief  静态测试函数
-		 * @return void
-		 ************************************/
-		static void test()
-		{
-			try
-			{
-				TestThread testThread;
-				testThread.start();		// 启动线程
+    public:
+        /************************************!
+         * @brief  静态测试函数
+         * @return void
+         ************************************/
+        static void test()
+        {
+            try
+            {
+                TestThread testThread;
+                testThread.start();		// 启动线程
 
-				std::this_thread::sleep_for(std::chrono::seconds(5)); // 睡眠5秒
+                std::this_thread::sleep_for(std::chrono::seconds(5)); // 睡眠5秒
 
-				testThread.terminate(); // 终止
-				testThread.getThreadControl().join(); // 并入主线程
-			}
-			catch (const std::exception& ex)
-			{
-				cout << ex.what() << endl;
-			}
-		}
+                testThread.terminate(); // 终止
+                testThread.getThreadControl().join(); // 并入主线程
+            }
+            catch (const std::exception& ex)
+            {
+                cout << ex.what() << endl;
+            }
+        }
     };
 }
