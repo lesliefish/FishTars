@@ -77,9 +77,21 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="tars\util\src\tc_ex.cpp" />
+    <ClCompile Include="tars\util\src\tc_thread.cpp" />
+    <ClCompile Include="tars\util\src\tc_thread_cond.cpp" />
+    <ClCompile Include="tars\util\src\tc_thread_mutex.cpp" />
+    <ClCompile Include="tars\util\src\tc_timeprovider.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="tars\util\include\util\tc_atomic.h" />
+    <ClInclude Include="tars\util\include\util\tc_autoptr.h" />
     <ClInclude Include="tars\util\include\util\tc_ex.h" />
+    <ClInclude Include="tars\util\include\util\tc_lock.h" />
+    <ClInclude Include="tars\util\include\util\tc_monitor.h" />
+    <ClInclude Include="tars\util\include\util\tc_thread.h" />
+    <ClInclude Include="tars\util\include\util\tc_thread_cond.h" />
+    <ClInclude Include="tars\util\include\util\tc_thread_mutex.h" />
+    <ClInclude Include="tars\util\include\util\tc_timeprovider.h" />
     <ClInclude Include="test\utiltest\test_exception.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
