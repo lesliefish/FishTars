@@ -72,5 +72,8 @@
     <ClInclude Include="tars\util\include\util\tc_atomic.h">
       <Filter>tars\util\include\util</Filter>
     </ClInclude>
+    <ClInclude Include="test\utiltest\test_thread.h">
+      <Filter>test\utiltest</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
