@@ -1,4 +1,4 @@
-#include <cstdio>
+﻿#include <cstdio>
 #include <thread>
 #include <iostream>
 using namespace std;

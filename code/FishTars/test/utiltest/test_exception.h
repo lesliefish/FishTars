@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "util/tc_ex.h"
 
 namespace lesliefishtest
@@ -9,7 +9,7 @@ namespace lesliefishtest
         explicit ExceptionTest() {};
 
     public:
-        // ֱ���׳��쳣
+        // 直接抛出异常
         static void test()
         {
             throw TC_Exception("can't be called in the same thread");
