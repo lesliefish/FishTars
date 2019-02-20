@@ -81,6 +81,7 @@
     <ClCompile Include="tars\util\src\tc_thread_cond.cpp" />
     <ClCompile Include="tars\util\src\tc_thread_mutex.cpp" />
     <ClCompile Include="tars\util\src\tc_timeprovider.cpp" />
+    <ClCompile Include="test\utiltest\test_thread.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tars\util\include\util\tc_atomic.h" />
@@ -99,7 +100,6 @@
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LibraryDependencies>pthread;%(LibraryDependencies)</LibraryDependencies>
-      <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <ClCompile>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

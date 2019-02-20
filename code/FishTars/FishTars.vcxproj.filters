@@ -17,6 +17,9 @@
     <ClCompile Include="tars\util\src\tc_timeprovider.cpp">
       <Filter>tars\util\src</Filter>
     </ClCompile>
+    <ClCompile Include="test\utiltest\test_thread.cpp">
+      <Filter>test\utiltest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="tars">
