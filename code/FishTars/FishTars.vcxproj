@@ -89,11 +89,13 @@
     <ClInclude Include="tars\util\include\util\tc_ex.h" />
     <ClInclude Include="tars\util\include\util\tc_lock.h" />
     <ClInclude Include="tars\util\include\util\tc_monitor.h" />
+    <ClInclude Include="tars\util\include\util\tc_singleton.h" />
     <ClInclude Include="tars\util\include\util\tc_thread.h" />
     <ClInclude Include="tars\util\include\util\tc_thread_cond.h" />
     <ClInclude Include="tars\util\include\util\tc_thread_mutex.h" />
     <ClInclude Include="tars\util\include\util\tc_timeprovider.h" />
     <ClInclude Include="test\utiltest\test_exception.h" />
+    <ClInclude Include="test\utiltest\test_singleton.h" />
     <ClInclude Include="test\utiltest\test_thread.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
