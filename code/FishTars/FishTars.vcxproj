@@ -76,6 +76,7 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tars\util\src\tc_common.cpp" />
     <ClCompile Include="tars\util\src\tc_ex.cpp" />
     <ClCompile Include="tars\util\src\tc_thread.cpp" />
     <ClCompile Include="tars\util\src\tc_thread_cond.cpp" />
@@ -86,6 +87,7 @@
   <ItemGroup>
     <ClInclude Include="tars\util\include\util\tc_atomic.h" />
     <ClInclude Include="tars\util\include\util\tc_autoptr.h" />
+    <ClInclude Include="tars\util\include\util\tc_common.h" />
     <ClInclude Include="tars\util\include\util\tc_ex.h" />
     <ClInclude Include="tars\util\include\util\tc_lock.h" />
     <ClInclude Include="tars\util\include\util\tc_monitor.h" />

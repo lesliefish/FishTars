@@ -20,6 +20,9 @@
     <ClCompile Include="test\utiltest\test_thread.cpp">
       <Filter>test\utiltest</Filter>
     </ClCompile>
+    <ClCompile Include="tars\util\src\tc_common.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="tars">
@@ -83,6 +86,9 @@
     </ClInclude>
     <ClInclude Include="test\utiltest\test_singleton.h">
       <Filter>test\utiltest</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\util\tc_common.h">
+      <Filter>tars\util\include\util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
