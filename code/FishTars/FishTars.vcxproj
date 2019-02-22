@@ -81,6 +81,8 @@
     <ClCompile Include="tars\util\src\tc_thread.cpp" />
     <ClCompile Include="tars\util\src\tc_thread_cond.cpp" />
     <ClCompile Include="tars\util\src\tc_thread_mutex.cpp" />
+    <ClCompile Include="tars\util\src\tc_thread_pool.cpp" />
+    <ClCompile Include="tars\util\src\tc_thread_rwlock.cpp" />
     <ClCompile Include="tars\util\src\tc_timeprovider.cpp" />
     <ClCompile Include="test\utiltest\test_thread.cpp" />
   </ItemGroup>
@@ -95,6 +97,9 @@
     <ClInclude Include="tars\util\include\util\tc_thread.h" />
     <ClInclude Include="tars\util\include\util\tc_thread_cond.h" />
     <ClInclude Include="tars\util\include\util\tc_thread_mutex.h" />
+    <ClInclude Include="tars\util\include\util\tc_thread_pool.h" />
+    <ClInclude Include="tars\util\include\util\tc_thread_queue.h" />
+    <ClInclude Include="tars\util\include\util\tc_thread_rwlock.h" />
     <ClInclude Include="tars\util\include\util\tc_timeprovider.h" />
     <ClInclude Include="test\utiltest\test_exception.h" />
     <ClInclude Include="test\utiltest\test_singleton.h" />
