@@ -105,5 +105,8 @@
     <ClInclude Include="tars\util\include\util\tc_thread_rwlock.h">
       <Filter>tars\util\include\util</Filter>
     </ClInclude>
+    <ClInclude Include="test\utiltest\test_thread_pool.h">
+      <Filter>test\utiltest</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

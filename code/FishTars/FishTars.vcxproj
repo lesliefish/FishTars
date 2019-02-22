@@ -104,6 +104,7 @@
     <ClInclude Include="test\utiltest\test_exception.h" />
     <ClInclude Include="test\utiltest\test_singleton.h" />
     <ClInclude Include="test\utiltest\test_thread.h" />
+    <ClInclude Include="test\utiltest\test_thread_pool.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
