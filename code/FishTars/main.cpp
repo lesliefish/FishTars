@@ -1,16 +1,14 @@
 ﻿#include <cstdio>
 #include <thread>
 #include <iostream>
-#include "test/utiltest/test_thread.h"
-#include "test/utiltest/test_singleton.h"
-#include "test/utiltest/test_thread_pool.h"
+#include "test/utiltest/test_option.h"
 
 using namespace std;
 using namespace tars;
 
-int main()
+int main(int argc, char* argv[])
 {
-    lesliefishtest::TestThreadPool::testRunLambdaTask();
+    lesliefishtest::TestOption::test(argc, argv);
 
     return 0;
 }

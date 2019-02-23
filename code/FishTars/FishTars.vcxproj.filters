@@ -29,6 +29,9 @@
     <ClCompile Include="tars\util\src\tc_thread_rwlock.cpp">
       <Filter>tars\util\src</Filter>
     </ClCompile>
+    <ClCompile Include="tars\util\src\tc_option.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="tars">
@@ -104,6 +107,12 @@
     </ClInclude>
     <ClInclude Include="tars\util\include\tc_timeprovider.h">
       <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_option.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="test\utiltest\test_option.h">
+      <Filter>test\utiltest</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
