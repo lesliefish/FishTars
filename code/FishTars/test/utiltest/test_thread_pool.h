@@ -1,10 +1,16 @@
-﻿#pragma once
+﻿/** @file    test_thread_pool.h 
+ *  @date    2019/02/23 19:23
+ *
+ *  @brief   线程池测试
+ *  		 
+ *  @author  yu
+ *  @contact ylesliefish@gmail.com 
+ */ 
+
+#pragma once
 
 #include "../../tars/util/include/util/tc_thread_pool.h"
-#include "../../tars/util/include/util/tc_common.h"
-
 #include <iostream>
-#include <vector>
 #include <set>
 
 using namespace std;

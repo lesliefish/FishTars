@@ -1,4 +1,13 @@
-﻿#pragma once
+﻿/** @file    test_singleton.h 
+ *  @date    2019/02/23 19:24
+ *
+ *  @brief   单例模式测试
+ *  		 
+ *  @author  yu
+ *  @contact ylesliefish@gmail.com 
+ */ 
+
+#pragma once
 
 #include "../../tars/util/include/util/tc_singleton.h"
 
