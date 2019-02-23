@@ -1,10 +1,11 @@
-#pragma once
+ï»¿#pragma once
 
 #include "../../tars/util/include/util/tc_thread_pool.h"
 #include "../../tars/util/include/util/tc_common.h"
 
 #include <iostream>
 #include <vector>
+#include <set>
 
 using namespace std;
 using namespace tars;
@@ -14,36 +15,43 @@ namespace lesliefishtest
     class TestThreadPool
     {
     public:
-        static void test()
+        static void testRunLambdaTask()
         {
             TC_ThreadPool tpool;
-            //4¸öÏß³Ì
+            
+            // 4ä¸ªçº¿ç¨‹
             tpool.init(4);
 
-            //Æô¶¯Ïß³Ì, Ö¸¶¨³õÊ¼»¯¶ÔÏó,Ò²¿ÉÒÔÃ»ÓĞ³õÊ¼»¯¶ÔÏó:tpool.start();
+            // å¯åŠ¨çº¿ç¨‹æ± ,tpool.start();
             tpool.start();
 
-            string bid;
-            for (int i = 0; i < 10000; i++)
+            // æ‰§è¡Œä»»åŠ¡çš„çº¿ç¨‹idé›†åˆ
+            std::set<pthread_t> threadIds{};
+
+            for (int i = 0; i < 100000; i++)
             {
-                bid = TC_Common::tostr(i);
-                cout << bid << endl;
-
-
-                tpool.exec([&] 
+                tpool.exec([i, &threadIds]
                 {
-                    cout << "index = " << i << ",bid = " << bid << endl;
+                    cout << "index = " << i << ", current thread id : " << pthread_self() << endl;
+                    threadIds.insert(pthread_self());
                 });
             }
 
-            //µÈ´ıÏß³Ì½áÊø
+            // ç­‰å¾…çº¿ç¨‹ç»“æŸ
             cout << "waitForAllDone..." << endl;
-            bool b = tpool.waitForAllDone(1000);
+            bool b = tpool.waitForAllDone(-1); // -1 è¡¨ç¤ºç­‰å¾…æ‰§è¡Œå®Œ
             cout << "waitForAllDone..." << b << ":" << tpool.getJobNum() << endl;
 
-            //Í£Ö¹Ïß³Ì,Îö¹»µÄÊ±ºòÒ²»á×Ô¶¯Í£Ö¹Ïß³Ì
-            //Ïß³Ì½áÊøÊ±,»á×Ô¶¯ÊÍ·ÅË½ÓĞÊı¾İ
+            // åœæ­¢çº¿ç¨‹,æå¤Ÿçš„æ—¶å€™ä¹Ÿä¼šè‡ªåŠ¨åœæ­¢çº¿ç¨‹
+            // çº¿ç¨‹ç»“æŸæ—¶,ä¼šè‡ªåŠ¨é‡Šæ”¾ç§æœ‰æ•°æ®
             tpool.stop();
+
+            // æ‰“å°å‡ºæ‰§è¡Œä»»åŠ¡çš„çº¿ç¨‹id
+            cout << "æ‰§è¡Œä»»åŠ¡çš„çº¿ç¨‹id : " << endl;
+            for(const auto& iter: threadIds)
+            {
+                cout << iter << endl;
+            }
         }
 
     };

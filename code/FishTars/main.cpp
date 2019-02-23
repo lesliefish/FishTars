@@ -10,7 +10,7 @@ using namespace tars;
 
 int main()
 {
-    lesliefishtest::TestThreadPool::test();
+    lesliefishtest::TestThreadPool::testRunLambdaTask();
 
     return 0;
 }
