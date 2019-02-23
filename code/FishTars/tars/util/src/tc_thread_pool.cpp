@@ -14,8 +14,8 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "../include/util/tc_thread_pool.h"
-#include "../include/util/tc_common.h"
+#include "../include/tc_thread_pool.h"
+#include "../include/tc_common.h"
 
 #include <iostream>
 

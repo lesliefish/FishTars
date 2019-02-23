@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "../include/util/tc_thread_rwlock.h"
+#include "../include/tc_thread_rwlock.h"
 #include <string.h>
 #include <iostream>
 #include <cassert>

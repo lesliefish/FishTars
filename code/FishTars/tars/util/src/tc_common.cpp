@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "../include/util/tc_common.h"
+#include "../include/tc_common.h"
 #include <signal.h>
 #include <sys/time.h>
 #include <string.h>

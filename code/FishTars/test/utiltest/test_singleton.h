@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "../../tars/util/include/util/tc_singleton.h"
+#include "../../tars/util/include/tc_singleton.h"
 
 using namespace std;
 using namespace tars;

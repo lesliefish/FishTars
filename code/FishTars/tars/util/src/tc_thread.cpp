@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-#include "../include/util/tc_thread.h"
+#include "../include/tc_thread.h"
 #include <cerrno>
 
 namespace tars

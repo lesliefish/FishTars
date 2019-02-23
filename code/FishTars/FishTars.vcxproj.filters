@@ -43,9 +43,6 @@
     <Filter Include="tars\util\include">
       <UniqueIdentifier>{76f95888-b655-4cb8-bdd1-8a93defe012a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tars\util\include\util">
-      <UniqueIdentifier>{65476fc6-32fc-4a37-99de-0d17de732b30}</UniqueIdentifier>
-    </Filter>
     <Filter Include="test">
       <UniqueIdentifier>{9dc30a31-c3f3-4d3c-80ca-54b7f29c792d}</UniqueIdentifier>
     </Filter>
@@ -57,56 +54,56 @@
     <ClInclude Include="test\utiltest\test_exception.h">
       <Filter>test\utiltest</Filter>
     </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_ex.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_thread.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_monitor.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_thread_cond.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_thread_mutex.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_lock.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_timeprovider.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_autoptr.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_atomic.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
     <ClInclude Include="test\utiltest\test_thread.h">
       <Filter>test\utiltest</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_singleton.h">
-      <Filter>tars\util\include\util</Filter>
     </ClInclude>
     <ClInclude Include="test\utiltest\test_singleton.h">
       <Filter>test\utiltest</Filter>
     </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_common.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_thread_pool.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_thread_queue.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\util\tc_thread_rwlock.h">
-      <Filter>tars\util\include\util</Filter>
-    </ClInclude>
     <ClInclude Include="test\utiltest\test_thread_pool.h">
       <Filter>test\utiltest</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_atomic.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_autoptr.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_common.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_ex.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_lock.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_monitor.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_singleton.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_thread.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_thread_cond.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_thread_mutex.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_thread_pool.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_thread_queue.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_thread_rwlock.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_timeprovider.h">
+      <Filter>tars\util\include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
