@@ -32,6 +32,126 @@
     <ClCompile Include="tars\util\src\tc_option.cpp">
       <Filter>tars\util\src</Filter>
     </ClCompile>
+    <ClCompile Include="tars\util\src\tc_bitmap.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_buffer.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_buffer_pool.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_cgi.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_clientsocket.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_config.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_dyn_object.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_encoder.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_epoll_server.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_epoller.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_fifo.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_file.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_file_mutex.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_gzip.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_hashmap.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_hashmap_compact.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_http.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_http_async.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_http2clientmgr.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_http2session.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_logger.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_malloc_chunk.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_md5.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_mem_chunk.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_mem_queue.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_mmap.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_multi_hashmap.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_mysql.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_nghttp2.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_openssl.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_pack.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_parsepara.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_rbtree.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_sem_mutex.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_sha.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_shm.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_socket.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_sslmgr.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_tea.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tars\util\src\tc_base64.cpp">
+      <Filter>tars\util\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="tars">
@@ -51,6 +171,9 @@
     </Filter>
     <Filter Include="test\utiltest">
       <UniqueIdentifier>{7055fbd9-20e5-4082-bd8c-5c8be9c4e55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tars\util\include\detail">
+      <UniqueIdentifier>{19342265-0419-4299-a672-1b4b01c7343c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -114,5 +237,241 @@
     <ClInclude Include="test\utiltest\test_option.h">
       <Filter>test\utiltest</Filter>
     </ClInclude>
+    <ClInclude Include="tars\util\include\tc_base64.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_bind.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_bind_detail.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_bitmap.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_buffer.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_buffer_pool.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_callback.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_callback_detail.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_cgi.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_clientsocket.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_config.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_consistent_hash.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_consistent_hash_new.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_dyn_object.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_enable_shared_from_this.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_encoder.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_epoll_server.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_epoller.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_eventfd.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_fcontext.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_fcontext_i386.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_fcontext_x86_64.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_fifo.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_file.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_file_mutex.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_functor.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_gzip.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_hash_fun.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_hashmap.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_hashmap_compact.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_http.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_http_async.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_http2clientmgr.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_http2session.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_logger.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_loki.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_loop_queue.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_malloc_chunk.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_md5.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_mem_chunk.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_mem_queue.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_mem_vector.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_mmap.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_multi_hashmap.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_mysql.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_nghttp2.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_openssl.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_pack.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_parsepara.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_rbtree.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_readers_writer_data.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_scoped_ptr.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_sem_mutex.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_sha.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_shared_ptr.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_shm.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_socket.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_squeue.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_sslmgr.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_tea.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_timeout_queue.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_timeout_queue_map.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_timeout_queue_new.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\tc_timeout_queue_noid.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_assert.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_checked_delete.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_shared_count_base.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_shared_count_impl.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_template_util.h">
+      <Filter>tars\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_assert.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_checked_delete.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_base.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_impl.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_template_util.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tars\util\src\tc_jump_i386_sysv_elf_gas.s">
+      <Filter>tars\util\src</Filter>
+    </None>
+    <None Include="tars\util\src\tc_jump_x86_64_sysv_elf_gas.s">
+      <Filter>tars\util\src</Filter>
+    </None>
+    <None Include="tars\util\src\tc_make_i386_sysv_elf_gas.s">
+      <Filter>tars\util\src</Filter>
+    </None>
+    <None Include="tars\util\src\tc_make_x86_64_sysv_elf_gas.s">
+      <Filter>tars\util\src</Filter>
+    </None>
   </ItemGroup>
 </Project>

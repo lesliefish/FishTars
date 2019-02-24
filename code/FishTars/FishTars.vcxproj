@@ -76,9 +76,49 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tars\util\src\tc_base64.cpp" />
+    <ClCompile Include="tars\util\src\tc_bitmap.cpp" />
+    <ClCompile Include="tars\util\src\tc_buffer.cpp" />
+    <ClCompile Include="tars\util\src\tc_buffer_pool.cpp" />
+    <ClCompile Include="tars\util\src\tc_cgi.cpp" />
+    <ClCompile Include="tars\util\src\tc_clientsocket.cpp" />
     <ClCompile Include="tars\util\src\tc_common.cpp" />
+    <ClCompile Include="tars\util\src\tc_config.cpp" />
+    <ClCompile Include="tars\util\src\tc_dyn_object.cpp" />
+    <ClCompile Include="tars\util\src\tc_encoder.cpp" />
+    <ClCompile Include="tars\util\src\tc_epoller.cpp" />
+    <ClCompile Include="tars\util\src\tc_epoll_server.cpp" />
     <ClCompile Include="tars\util\src\tc_ex.cpp" />
+    <ClCompile Include="tars\util\src\tc_fifo.cpp" />
+    <ClCompile Include="tars\util\src\tc_file.cpp" />
+    <ClCompile Include="tars\util\src\tc_file_mutex.cpp" />
+    <ClCompile Include="tars\util\src\tc_gzip.cpp" />
+    <ClCompile Include="tars\util\src\tc_hashmap.cpp" />
+    <ClCompile Include="tars\util\src\tc_hashmap_compact.cpp" />
+    <ClCompile Include="tars\util\src\tc_http.cpp" />
+    <ClCompile Include="tars\util\src\tc_http2clientmgr.cpp" />
+    <ClCompile Include="tars\util\src\tc_http2session.cpp" />
+    <ClCompile Include="tars\util\src\tc_http_async.cpp" />
+    <ClCompile Include="tars\util\src\tc_logger.cpp" />
+    <ClCompile Include="tars\util\src\tc_malloc_chunk.cpp" />
+    <ClCompile Include="tars\util\src\tc_md5.cpp" />
+    <ClCompile Include="tars\util\src\tc_mem_chunk.cpp" />
+    <ClCompile Include="tars\util\src\tc_mem_queue.cpp" />
+    <ClCompile Include="tars\util\src\tc_mmap.cpp" />
+    <ClCompile Include="tars\util\src\tc_multi_hashmap.cpp" />
+    <ClCompile Include="tars\util\src\tc_mysql.cpp" />
+    <ClCompile Include="tars\util\src\tc_nghttp2.cpp" />
+    <ClCompile Include="tars\util\src\tc_openssl.cpp" />
     <ClCompile Include="tars\util\src\tc_option.cpp" />
+    <ClCompile Include="tars\util\src\tc_pack.cpp" />
+    <ClCompile Include="tars\util\src\tc_parsepara.cpp" />
+    <ClCompile Include="tars\util\src\tc_rbtree.cpp" />
+    <ClCompile Include="tars\util\src\tc_sem_mutex.cpp" />
+    <ClCompile Include="tars\util\src\tc_sha.cpp" />
+    <ClCompile Include="tars\util\src\tc_shm.cpp" />
+    <ClCompile Include="tars\util\src\tc_socket.cpp" />
+    <ClCompile Include="tars\util\src\tc_sslmgr.cpp" />
+    <ClCompile Include="tars\util\src\tc_tea.cpp" />
     <ClCompile Include="tars\util\src\tc_thread.cpp" />
     <ClCompile Include="tars\util\src\tc_thread_cond.cpp" />
     <ClCompile Include="tars\util\src\tc_thread_mutex.cpp" />
@@ -88,20 +128,94 @@
     <ClCompile Include="test\utiltest\test_thread.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_assert.h" />
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_checked_delete.h" />
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_base.h" />
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_impl.h" />
+    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_template_util.h" />
+    <ClInclude Include="tars\util\include\detail\tc_assert.h" />
+    <ClInclude Include="tars\util\include\detail\tc_checked_delete.h" />
+    <ClInclude Include="tars\util\include\detail\tc_shared_count_base.h" />
+    <ClInclude Include="tars\util\include\detail\tc_shared_count_impl.h" />
+    <ClInclude Include="tars\util\include\detail\tc_template_util.h" />
     <ClInclude Include="tars\util\include\tc_atomic.h" />
     <ClInclude Include="tars\util\include\tc_autoptr.h" />
+    <ClInclude Include="tars\util\include\tc_base64.h" />
+    <ClInclude Include="tars\util\include\tc_bind.h" />
+    <ClInclude Include="tars\util\include\tc_bind_detail.h" />
+    <ClInclude Include="tars\util\include\tc_bitmap.h" />
+    <ClInclude Include="tars\util\include\tc_buffer.h" />
+    <ClInclude Include="tars\util\include\tc_buffer_pool.h" />
+    <ClInclude Include="tars\util\include\tc_callback.h" />
+    <ClInclude Include="tars\util\include\tc_callback_detail.h" />
+    <ClInclude Include="tars\util\include\tc_cgi.h" />
+    <ClInclude Include="tars\util\include\tc_clientsocket.h" />
     <ClInclude Include="tars\util\include\tc_common.h" />
+    <ClInclude Include="tars\util\include\tc_config.h" />
+    <ClInclude Include="tars\util\include\tc_consistent_hash.h" />
+    <ClInclude Include="tars\util\include\tc_consistent_hash_new.h" />
+    <ClInclude Include="tars\util\include\tc_dyn_object.h" />
+    <ClInclude Include="tars\util\include\tc_enable_shared_from_this.h" />
+    <ClInclude Include="tars\util\include\tc_encoder.h" />
+    <ClInclude Include="tars\util\include\tc_epoller.h" />
+    <ClInclude Include="tars\util\include\tc_epoll_server.h" />
+    <ClInclude Include="tars\util\include\tc_eventfd.h" />
     <ClInclude Include="tars\util\include\tc_ex.h" />
+    <ClInclude Include="tars\util\include\tc_fcontext.h" />
+    <ClInclude Include="tars\util\include\tc_fcontext_i386.h" />
+    <ClInclude Include="tars\util\include\tc_fcontext_x86_64.h" />
+    <ClInclude Include="tars\util\include\tc_fifo.h" />
+    <ClInclude Include="tars\util\include\tc_file.h" />
+    <ClInclude Include="tars\util\include\tc_file_mutex.h" />
+    <ClInclude Include="tars\util\include\tc_functor.h" />
+    <ClInclude Include="tars\util\include\tc_gzip.h" />
+    <ClInclude Include="tars\util\include\tc_hashmap.h" />
+    <ClInclude Include="tars\util\include\tc_hashmap_compact.h" />
+    <ClInclude Include="tars\util\include\tc_hash_fun.h" />
+    <ClInclude Include="tars\util\include\tc_http.h" />
+    <ClInclude Include="tars\util\include\tc_http2clientmgr.h" />
+    <ClInclude Include="tars\util\include\tc_http2session.h" />
+    <ClInclude Include="tars\util\include\tc_http_async.h" />
     <ClInclude Include="tars\util\include\tc_lock.h" />
+    <ClInclude Include="tars\util\include\tc_logger.h" />
+    <ClInclude Include="tars\util\include\tc_loki.h" />
+    <ClInclude Include="tars\util\include\tc_loop_queue.h" />
+    <ClInclude Include="tars\util\include\tc_malloc_chunk.h" />
+    <ClInclude Include="tars\util\include\tc_md5.h" />
+    <ClInclude Include="tars\util\include\tc_mem_chunk.h" />
+    <ClInclude Include="tars\util\include\tc_mem_queue.h" />
+    <ClInclude Include="tars\util\include\tc_mem_vector.h" />
+    <ClInclude Include="tars\util\include\tc_mmap.h" />
     <ClInclude Include="tars\util\include\tc_monitor.h" />
+    <ClInclude Include="tars\util\include\tc_multi_hashmap.h" />
+    <ClInclude Include="tars\util\include\tc_mysql.h" />
+    <ClInclude Include="tars\util\include\tc_nghttp2.h" />
+    <ClInclude Include="tars\util\include\tc_openssl.h" />
     <ClInclude Include="tars\util\include\tc_option.h" />
+    <ClInclude Include="tars\util\include\tc_pack.h" />
+    <ClInclude Include="tars\util\include\tc_parsepara.h" />
+    <ClInclude Include="tars\util\include\tc_rbtree.h" />
+    <ClInclude Include="tars\util\include\tc_readers_writer_data.h" />
+    <ClInclude Include="tars\util\include\tc_scoped_ptr.h" />
+    <ClInclude Include="tars\util\include\tc_sem_mutex.h" />
+    <ClInclude Include="tars\util\include\tc_sha.h" />
+    <ClInclude Include="tars\util\include\tc_shared_ptr.h" />
+    <ClInclude Include="tars\util\include\tc_shm.h" />
     <ClInclude Include="tars\util\include\tc_singleton.h" />
+    <ClInclude Include="tars\util\include\tc_socket.h" />
+    <ClInclude Include="tars\util\include\tc_squeue.h" />
+    <ClInclude Include="tars\util\include\tc_sslmgr.h" />
+    <ClInclude Include="tars\util\include\tc_tea.h" />
     <ClInclude Include="tars\util\include\tc_thread.h" />
     <ClInclude Include="tars\util\include\tc_thread_cond.h" />
     <ClInclude Include="tars\util\include\tc_thread_mutex.h" />
     <ClInclude Include="tars\util\include\tc_thread_pool.h" />
     <ClInclude Include="tars\util\include\tc_thread_queue.h" />
     <ClInclude Include="tars\util\include\tc_thread_rwlock.h" />
+    <ClInclude Include="tars\util\include\tc_timeout_queue.h" />
+    <ClInclude Include="tars\util\include\tc_timeout_queue_map.h" />
+    <ClInclude Include="tars\util\include\tc_timeout_queue_new.h" />
+    <ClInclude Include="tars\util\include\tc_timeout_queue_noid.h" />
     <ClInclude Include="tars\util\include\tc_timeprovider.h" />
     <ClInclude Include="test\utiltest\test_exception.h" />
     <ClInclude Include="test\utiltest\test_option.h" />
@@ -109,15 +223,22 @@
     <ClInclude Include="test\utiltest\test_thread.h" />
     <ClInclude Include="test\utiltest\test_thread_pool.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="tars\util\src\tc_jump_i386_sysv_elf_gas.s" />
+    <None Include="tars\util\src\tc_jump_x86_64_sysv_elf_gas.s" />
+    <None Include="tars\util\src\tc_make_i386_sysv_elf_gas.s" />
+    <None Include="tars\util\src\tc_make_x86_64_sysv_elf_gas.s" />
+  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>pthread;%(LibraryDependencies)</LibraryDependencies>
+      <LibraryDependencies>pthread;z;mysqlclient;%(LibraryDependencies)</LibraryDependencies>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
     </Link>
     <ClCompile>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
