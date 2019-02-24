@@ -459,6 +459,9 @@
     <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_template_util.h">
       <Filter>tars\util\include\detail</Filter>
     </ClInclude>
+    <ClInclude Include="test\utiltest\test_mmap.h">
+      <Filter>test\utiltest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="tars\util\src\tc_jump_i386_sysv_elf_gas.s">

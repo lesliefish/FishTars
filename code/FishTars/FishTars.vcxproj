@@ -218,6 +218,7 @@
     <ClInclude Include="tars\util\include\tc_timeout_queue_noid.h" />
     <ClInclude Include="tars\util\include\tc_timeprovider.h" />
     <ClInclude Include="test\utiltest\test_exception.h" />
+    <ClInclude Include="test\utiltest\test_mmap.h" />
     <ClInclude Include="test\utiltest\test_option.h" />
     <ClInclude Include="test\utiltest\test_singleton.h" />
     <ClInclude Include="test\utiltest\test_thread.h" />
