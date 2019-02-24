@@ -429,38 +429,23 @@
     <ClInclude Include="tars\util\include\tc_timeout_queue_noid.h">
       <Filter>tars\util\include</Filter>
     </ClInclude>
-    <ClInclude Include="tars\util\include\detail\tc_assert.h">
-      <Filter>tars\util\include</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\detail\tc_checked_delete.h">
-      <Filter>tars\util\include</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\detail\tc_shared_count_base.h">
-      <Filter>tars\util\include</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\detail\tc_shared_count_impl.h">
-      <Filter>tars\util\include</Filter>
-    </ClInclude>
-    <ClInclude Include="tars\util\include\detail\tc_template_util.h">
-      <Filter>tars\util\include</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_assert.h">
-      <Filter>tars\util\include\detail</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_checked_delete.h">
-      <Filter>tars\util\include\detail</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_base.h">
-      <Filter>tars\util\include\detail</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_impl.h">
-      <Filter>tars\util\include\detail</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_template_util.h">
-      <Filter>tars\util\include\detail</Filter>
-    </ClInclude>
     <ClInclude Include="test\utiltest\test_mmap.h">
       <Filter>test\utiltest</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_assert.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_checked_delete.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_shared_count_base.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_template_util.h">
+      <Filter>tars\util\include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tars\util\include\detail\tc_shared_count_impl.h">
+      <Filter>tars\util\include\detail</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

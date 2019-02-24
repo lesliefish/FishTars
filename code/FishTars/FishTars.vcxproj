@@ -128,11 +128,6 @@
     <ClCompile Include="test\utiltest\test_thread.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_assert.h" />
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_checked_delete.h" />
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_base.h" />
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_shared_count_impl.h" />
-    <ClInclude Include="D:\TARS\TarsCpp-master\TarsCpp-master\util\include\util\detail\tc_template_util.h" />
     <ClInclude Include="tars\util\include\detail\tc_assert.h" />
     <ClInclude Include="tars\util\include\detail\tc_checked_delete.h" />
     <ClInclude Include="tars\util\include\detail\tc_shared_count_base.h" />
