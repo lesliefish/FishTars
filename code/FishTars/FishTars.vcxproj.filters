@@ -447,6 +447,9 @@
     <ClInclude Include="tars\util\include\detail\tc_shared_count_impl.h">
       <Filter>tars\util\include\detail</Filter>
     </ClInclude>
+    <ClInclude Include="test\utiltest\test_mysql.h">
+      <Filter>test\utiltest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="tars\util\src\tc_jump_i386_sysv_elf_gas.s">
